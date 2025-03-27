@@ -5,6 +5,7 @@
 		"strict": true,
 		"outDir": "./dist",
 		"esModuleInterop": true,
-		"moduleResolution": "nodenext",
+		"module": "NodeNext",
+		"moduleResolution": "NodeNext",
 	}
 }

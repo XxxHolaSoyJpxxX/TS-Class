@@ -1,0 +1,9 @@
+<h2>List of users</h2>
+{{#unless users.length}}
+	<p>There are no users</p>
+{{/unless}}
+<ul>
+	{{#each users}}
+		<li>{{name}}</li>
+	{{/each}}
+</ul>
